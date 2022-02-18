@@ -1,0 +1,337 @@
+nav{
+    background-color: rgba(35,47,63,255);
+}
+
+nav form{
+    margin-left: 12%;
+}
+
+#bt_search{
+    background-color: rgba(255,126,31,255);
+    border: 1px solid rgba(255,126,31,255);
+    border-radius: 4px;
+}
+
+#nav-dropdown{
+    background-color: rgb(220, 238, 247);
+}
+
+.nav-icon{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.nav-logo{
+    color: rgba(255,126,31,255);
+}
+
+#signup{
+    margin: 2px;
+    padding: 2px;
+}
+
+#cart{
+    margin: 2px;
+    padding: 4px;
+}
+
+#profile{
+    margin: 2px;
+    padding: 4px;
+}
+
+
+
+.slider-main{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.deal-of-day{
+    margin-right: 5px;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+.deal-of-day-heading{
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    padding: 2px;
+}
+
+#deal-of-day-heading-first{
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#deal-of-day-heading-second{
+    text-decoration: none;
+    color: orange;
+    font-size: 1vw;
+    float: right;
+    margin-top: 5px;
+}
+
+.deal-of-day-cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.deal-of-day-card{
+    margin: 4px;
+}
+
+.deal-of-day-cards-desc{
+    margin: 1px;
+}
+
+.deal-of-day-cards-desc-div1{
+    margin: 1px;
+    font-size: 1vw;
+    color: orange;
+}
+.deal-of-day-cards-desc-div2{
+    margin: 1px;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.deal-of-day-cards-desc-div3{
+    margin: 1px;
+    font-size: 1vw;
+}
+
+
+
+.offers{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}
+.offer{
+    margin: 4px;
+}
+
+
+
+.electronics{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.electronic-item{
+    margin: 1vw;
+}
+
+
+
+
+.container-policy{
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    padding: 2px;
+}
+
+.policy-pic{
+    margin: 2px;
+    width: 8vw;
+}
+.policy-text{
+    margin: 2px;
+}
+
+.item-p{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    border-right: 1px ridge gray;
+}
+
+.item-p-heading1{
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+.item-p-heading2{
+    font-size: 1vw;
+}
+
+.item-p-heading3{
+    font-size: 1vw;
+    text-decoration: underline;
+    color: black;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 2px;
+
+}
+
+.newsletterheading{
+    margin-left: 30px;
+    margin: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.newsletterform{
+    margin: 24px;
+}
+#newsletterforminput{
+    background-color: rgba(51,51,51,255);
+    color: white;
+}
+
+#bt_newsletter{
+    color: white;
+    background-color: red;
+}
+
+.footer{
+    height: auto;
+    background-color: rgba(34,34,34,255);
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
+}
+
+.first-footer-div-third{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-footer-div{
+    padding: 10px;
+}
+
+.first-footer-div-first{
+    color: white;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+.first-footer-div-second{
+    color: gray;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.first-footer-div-third{
+    color: gray;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.first-footer-div-third-1{
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.first-footer-div-third-1-a{
+    color: gray;
+}
+
+.second-footer-div{
+    padding: 10px;
+}
+
+.second-footer-div-first{
+    color: white;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+.second-footer-div-second{
+    color: gray;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.second-footer-div-second a{
+    color: gray;
+    text-decoration: none;
+}
+
+.third-footer-div{
+    padding: 10px;
+}
+
+.third-footer-div-first{
+    color: white;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+.third-footer-div-second{
+    color: gray;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.third-footer-div-second a{
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+.fourth-footer-div{
+    padding: 10px;
+}
+
+.fourth-footer-div-first{
+    color: white;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+.fourth-footer-div-second{
+    color: gray;
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.fourth-footer-div-second a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 8px;
+}
+
+.footer-bottom-1{
+    font-size: 1vw;
+    padding-left: 10px;
+    color: gray;
+}
+
+.footer-bottom-2 img{
+    padding-left: 200px;
+    padding-bottom: 5px;
+}
