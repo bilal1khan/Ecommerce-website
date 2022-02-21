@@ -264,18 +264,22 @@ nav form{
         color: white;
         font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .first-footer-div-second{
         color: gray;
-        font-size: 1vw;
+        font-size: 1.3vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+
     }
     
     .first-footer-div-third{
         color: gray;
-        font-size: 1vw;
+        font-size: 1.3vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .first-footer-div-third-1{
@@ -296,12 +300,15 @@ nav form{
         color: white;
         font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+
     }
     
     .second-footer-div-second{
         color: gray;
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .second-footer-div-second a{
@@ -319,12 +326,16 @@ nav form{
         color: white;
         font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+
     }
     
     .third-footer-div-second{
         color: gray;
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
+
     }
     
     .third-footer-div-second a{
@@ -343,12 +354,14 @@ nav form{
         color: white;
         font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .fourth-footer-div-second{
         color: gray;
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding: 5px;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .fourth-footer-div-second a{
@@ -363,13 +376,15 @@ nav form{
     }
     
     .footer-bottom-1{
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding-left: 10px;
         color: gray;
+        font-family: 'Times New Roman', Times, serif;
+
     }
     
     .footer-bottom-2 img{
-        padding-left: 200px;
+        padding-left: 180px;
         padding-bottom: 4px;
         float: right;
     }
