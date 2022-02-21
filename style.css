@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 nav{
     background-color: rgba(35,47,63,255);
 }
@@ -50,21 +53,15 @@ nav form{
 }
 
 
-
-
 .deal-of-day{
-    margin-right: 5px;
-    margin-top: 4px;
-    margin-left: 5px;
-    margin-bottom: 4px;
-    padding: 5px;
+    width: 98%;
+    margin: 2px;
+    padding: 2px;
 }
 
 .deal-of-day-heading{
-    margin-right: 2px;
-    margin-top: 2px;
-    margin-bottom: 1px;
-    padding: 2px;
+    margin: 1vw;
+    padding: 5px;
 }
 
 #deal-of-day-heading-first{
@@ -75,7 +72,7 @@ nav form{
 #deal-of-day-heading-second{
     text-decoration: none;
     color: orange;
-    font-size: 1vw;
+    font-size: 1.5vw;
     float: right;
     margin-top: 5px;
 }
@@ -85,29 +82,38 @@ nav form{
     flex-direction: row;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .deal-of-day-card{
-    margin: 4px;
+    margin-left: 4PX;
+    margin: 3px;
+    width: 20%;
+}
+
+.deal-of-day-card img{
+    margin: 12%;
+    width: auto;
 }
 
 .deal-of-day-cards-desc{
-    margin: 1px;
+    margin: 12%;
+    margin-top: 0%;
 }
 
 .deal-of-day-cards-desc-div1{
-    margin: 1px;
+    margin: 2px;
     font-size: 1vw;
     color: orange;
 }
 .deal-of-day-cards-desc-div2{
-    margin: 1px;
+    margin: 2px;
     font-size: 1vw;
     font-weight: bold;
 }
 .deal-of-day-cards-desc-div3{
-    margin: 1px;
+    margin: 2px;
     font-size: 1vw;
 }
 
@@ -116,25 +122,37 @@ nav form{
 .offers{
     display: flex;
     flex-direction: row;
-    margin: 2px;
 }
 .offer{
-    margin: 4px;
+    width: 50%;
+    margin-left: auto;
+    margin: auto;
 }
+
+.offer img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
 .electronics{
     display: flex;
     flex-direction: row;
-    margin: 2px;
+    margin: 4px;
 }
 
 .electronic-item{
-    margin: 1vw;
+    margin: 5px;
+    width: 25%;
 }
 
-
+.electronic-item img{
+    width: 100%;
+    margin: 5px;
+}
 
 
 .container-policy{
@@ -150,6 +168,7 @@ nav form{
 }
 .policy-text{
     margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .item-p{
@@ -194,6 +213,7 @@ nav form{
 
 .newsletterform{
     margin: 24px;
+    
 }
 #newsletterforminput{
     background-color: rgba(51,51,51,255);
@@ -224,6 +244,7 @@ nav form{
 
 .first-footer-div{
     padding: 10px;
+    width: 42%;
 }
 
 .first-footer-div-first{
@@ -255,6 +276,7 @@ nav form{
 
 .second-footer-div{
     padding: 10px;
+    width: 19%;
 }
 
 .second-footer-div-first{
@@ -276,6 +298,8 @@ nav form{
 
 .third-footer-div{
     padding: 10px;
+    width: 19%;
+
 }
 
 .third-footer-div-first{
@@ -299,6 +323,7 @@ nav form{
 
 .fourth-footer-div{
     padding: 10px;
+    width: 19%;
 }
 
 .fourth-footer-div-first{
@@ -321,7 +346,6 @@ nav form{
 .footer-bottom{
     display: flex;
     flex-direction: row;
-    height: auto;
     padding: 4px;
 }
 
@@ -334,4 +358,5 @@ nav form{
 .footer-bottom-2 img{
     padding-left: 200px;
     padding-bottom: 4px;
+    float: right;
 }
